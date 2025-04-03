@@ -24,7 +24,7 @@ public class Fluent extends CommonConfig {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         //unconditional wait
-        Thread.sleep(5000);
+        Thread.sleep(2000);
         fluentWait();
         tearDown(driver);
     }
